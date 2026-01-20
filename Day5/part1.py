@@ -13,6 +13,5 @@ for ingredient in ingredients:
         end = r.split('-')[1]
         if int(ingredient) >= int(start) and int(ingredient) <= int(end):
             sum += 1
-            print(ingredient)
             break
 print(sum)
